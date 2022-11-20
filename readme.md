@@ -1,10 +1,5 @@
 <h1 align="center"> <a href="https://hau5gei5t.github.io/weather-app-site/" target="_blank">Приложение для определения погоды</a>  
 по долготе и широте </h1>
-<style>
-li{
-margin-left: 30px;
-}
-</style>
 <ul> Приложение...
     <li>валидирует введенные пользователем данные</li>
     <li>использует fetch, promise api, async/await </li>
