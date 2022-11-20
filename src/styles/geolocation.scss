@@ -1,0 +1,31 @@
+.geolocation{
+  padding-bottom: 30px;
+  padding-top: 10px;
+  &__container{
+    display: flex;
+    max-width: 500px;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__btn{
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+  }
+  #confirm{
+    color: black;
+    border-radius: 20px;
+  }
+  #refresh-all{
+    color: black;
+    border-radius: 20px;
+  }
+  #lon{
+    margin-top: 5px;
+  }
+  #lat{
+    margin-top: 5px;
+  }
+}

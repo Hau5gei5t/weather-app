@@ -1,0 +1,71 @@
+.weather{
+  &__container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  &__card{
+    position: relative;
+    width: 1000px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  &__btn{
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover{
+      background-color: rgba(255,255,255,.3);
+      border-radius: 100%;
+
+    }
+  }
+  &__title{
+    margin: 20px 0 0 20px;
+    text-align: center;
+
+  }
+  &__main-info{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    align-items: center;
+  }
+  &__other-info{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+  &__time{
+    margin-top: 10px;
+  }
+  &__temperature{
+    margin: 0;
+    font-size: 50px;
+  }
+  &__icon{
+    max-width: 40px;
+    max-height: 40px;
+    margin: 0 0 0 10px;
+  }
+  &__description{
+    margin: 0;
+    text-align: left;
+
+  }
+  &__btn-section{
+    display: flex;
+    gap: 50px;
+  }
+  &__info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
